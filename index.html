@@ -146,11 +146,63 @@
         
         
         // 函数表达式
-        var sayTruth=function(){
-            console.log('myvin is handsome.');
+        // var sayTruth=function(){
+        //     console.log('myvin is handsome.');
+        // }
+        // console.log('1');
+        // sayTruth();
+
+
+          // const cards = Array(62).fill().map((_,i)=>i+1); //初始化一个 1~62 的数组
+
+        // function draw(n = 1){ // 一次抽取 n 个，默认一次 1 个
+        //     var ret = [];
+        //     for(var i = 0; i < n; i++){
+        //         let idx = Math.floor(cards.length * Math.random());
+        //         ret.push(...cards.splice(idx, 1));
+        //     }
+        //     return ret;
+        // }
+        // console.log(draw(10)); //抽取一次，10个中奖者  
+
+
+
+
+        // var num = [1,3,5,9,10,222];
+
+        // var nums = num.map(Math.sqrt);
+
+        // console.log(nums,num);
+
+        // 
+
+
+        // function foo(){
+        //     console.log( this.a );
+        // }
+
+        // var a = 2;
+        // var o = { a : 3, foo : foo };
+        // var p = { a: 4 };
+
+
+        // o.foo();
+        // (p.foo = o.foo)();
+
+
+
+        // var bd = new Date(2017,04,02);
+        var bd = $('ol li').attr('data-a');
+
+         console.log(eval(bd));
+
+        if( bd instanceof Date && !isNaN(bd.valueOf()) ){
+            console.log('a',bd);
         }
-        console.log('1');
-        sayTruth();
+
+        // console.log('a',bd);
+
+
 
 
     </script>
