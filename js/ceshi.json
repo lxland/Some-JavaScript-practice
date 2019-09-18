@@ -1,0 +1,27 @@
+{
+    "code": 1000,
+    "msg": "创建成功!",
+    "data(模板数据)": {
+        "id": "4a2d89da5e19014a593cb624bea0cb83",
+        "name": "这是一个模板",
+        "basicLab(基本标签)": {
+            "basickey1": "帅气逼人",
+            "basickey2": "无懈可击",
+            "basickey3": "游手好闲",
+            "basickey4": "十年海龟"
+        },
+        "labDetail": [
+            {
+                "labName": "infoLab(基本信息)",
+                "domain": "www.knet.cn10",
+                "kxStatus": "N",
+                "otherDomains": "t.knet.cn10,yxb.knet.cn10"
+            },
+            {
+                "labName": "morexxxxx(更多,名字自己起的吧)",
+                "domain": "www.knet.cn10",
+                "kxStatus": "N"
+            }
+        ]
+    }
+}
